@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+html{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{   
+   
+        background:
+            url("image/2.svg") no-repeat bottom right -25%,
+            url("image/1.svg") no-repeat bottom left -30%,
+            url("image/7.svg") bottom no-repeat ,
+            linear-gradient(0deg, rgba(104,85,144,1) 0%, rgba(41,19,210,1) 90%);
+            padding: 0px 20px 400px 20px;
+    }
+   
+
+nav{
+    
+    height: 80px;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#center a{
+    padding: 0 15px;
+} 
+
+#center a:hover{
+text-decoration: underline;
+}
+
+#right{
+    background-color: white;
+    color: black;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px 5px #0000001e;
+}
+
+
+#gauche { 
+  
+    padding:20px 20px 20px 20px ;
+    background-color: whitesmoke;
+    display: flex;
+    text-align: right;
+}
+
+.centre{
+    padding: 0px 50px 100px 50px;
+font-size: 25px;
+    
+    text-align: center;
+}
+
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: rgb(17, 17, 17); }
+    li {
+        border-right: 4px solid #bbb;
+    }
+    
+    li:last-child {
+        border-right: none;
+    }
+    .bas {
+        
+            
+            bottom: 10px;
+            text-align: center;
+            vertical-align: bottom;
+        }
+
+    #pika {
+        text-align: center;
+        vertical-align: bottom;
+        text-align: right;
+    vertical-align:right ;
+    padding:20px 20px 20px 20px ;
+    background-color: whitesmoke;
+    }
+    
+ #seul {
+     padding: 0px 0px 100px;
+     color: white;
+     font-size: 50px;
+    
+     text-align: center;
+     margin-left: auto;
+     margin: auto;
+ }
+img{ 
+    vertical-align: auto;
+    justify-content: space-between;
+}
+
+.bas{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 100%;
+    line-height: 60px;
+    font-size: 22px;
+    align-items: center
+}
+.droi{
+    text-align: right;
+}
+body 
+{ 
+    background-color: #b6bae9;
+}
+#headerButton{
+    margin: auto;
+    text-decoration: underline;
+text-align: center;
+    padding: 20px 20px 20px 20px;
+    appearance: none;
+    line-height: 24px;
+    cursor: pointer;
+    
+   
+    
+    
+    
+    
+    
+    font-size: 20px;
+    padding: 0px 30px;
+    margin-top: 24px;
+}
+}
+
+
+}
+#headerButton{
+background-color: rgba(115, 29, 228, 0.719);
+
+}
+#droite{
+    background-color:white;
+    padding: 20px 20px 20px 20px;
+    display:flex;
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+h4{ 
+    font-size: 80px;
+    text-align: center;
+}
+#poke{
+    text-align: right;
+ 
+    padding:20px 20px 20px 20px ;
+    background-color: white;
+    display: flex;
+}
+.Fin{
+    
+    text-align: end;
+justify-content: space-between;
+margin: auto;
+    padding:100px 100px 100px 100px ;
+    text-align: center;
+    background-color: whitesmoke;}
+    
+h2,h4{
+    font-size: 35px;
+}
+#nina{
+text-align: center;
+display: flex;
+}
+footer{
+    padding: 150px 150px 150px 150px;
+    
+    justify-content: space-between;
+    color: black;
+    background-color: black;
+    column-count: 4;
+    vertical-align: column;
+    background: url(image/9.png)no-repeat;
+}
+
+#Tele{
+    border-radius: 40px;
+    background-color: violet;
+    font-size: 20px;
+    padding: 16px ;
+    color: white;
+    align-items: center;
+text-decoration:rgb(161, 17, 218)
+
+}
+#seul{
+   width: auto;
+margin: 0 auto;
+justify-content: space-between;
+}
+#headerTittle
+{
+    vertical-align:center;
+    display: flex auto ;
+    text-align: center;
+    width: 1000px;
+
+}
+#foot{
+    background-color: black;
+}
+#nn{
+    background-color: black;
+    display: block;
+}
+.but{
+    border-radius: 40px;
+    background-color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+    color: black;
+}
+.butt{
+    border-radius: 40px;
+    background-color: black;
+    font-size: 20px;
+    padding: 16px 32px;
+    color: white;
+    align-items: center;
+
+}
